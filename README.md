@@ -15,4 +15,5 @@ Add deploy and predeploy to scripts in package.json :  "predeploy": "npm run bui
     "deploy": "gh-pages -d build"
 If your are using React-Router-Dom you need to add basename to your router: <Router basename="/repo-name"></Router>
 And the final step :npm run deploy
+Now You have to run the project by going to the github repository->Actions->Pages build and Deployment->Click on the link 
 This is how you upload and deploy your project on github
