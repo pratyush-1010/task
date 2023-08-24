@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.light-theme{
+  --div-background-color:rgb(255, 244, 224) !important;
+  --clr: rgb(36, 34, 34) !important;
+}
+.dark-theme{
+  --div-background-color:rgb(36, 34, 34) !important;
+  --clr: rgb(255, 189, 66) !important;;
+  
+}
+
+.clr{
+  transition: all .3s;
+
+  background-color: var(--div-background-color) !important;
+  color: var(--clr);
+}
+.sec{
+  transition: all .3s;
+
+  border: 1px solid var(--clr);
+}
